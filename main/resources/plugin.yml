@@ -1,0 +1,13 @@
+name: QFlottery
+version: 1.0.3
+main: github.qfeng.qflottery.QFlottery
+author: 'qingfeng'
+commands:
+  qflottery:
+    description: "一个抽奖插件"
+    aliases: [ql,qlcj]
+    usage: /<command> help
+softdepend:
+  - 'NeigeItems'
+  - 'SX-Attribute'
+  - 'MythicMobs'

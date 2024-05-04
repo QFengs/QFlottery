@@ -1,0 +1,3 @@
+LotteryName:  #宝箱名字，与文件名一致
+  prize: 1 #"NI、SX物品名": 权重
+  prize2: 1 #"NI、SX物品名": 权重

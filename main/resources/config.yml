@@ -1,0 +1,25 @@
+#author: qingfeng
+#QQ:2130203696
+##无限抽奖
+Lottery:    #这个不要改
+  x1:
+    number: 0 #只能领取一次
+    key: "测试1" #匹配NI、SX库内物品，领取需求，也可以说是钥匙
+  x2:
+    number: 0 #无领取限制
+    key: null #不需要则写null或删除该项
+  x3:
+    number: -1 #抽奖箱名称：次数
+  x4:
+    number: -1 #负数不予领取,未标明配置均为无限领取
+Items:
+  DangBan:  #这个名字也不要改！
+    material: STAINED_GLASS_PANE   #材质，不用说
+    name: "§d§l无限抽奖"
+    lore:           #lore，不用说
+      - "§d这个是玻璃挡板"
+      - "§d§l无限抽奖"
+ItemPacks:  #物品库
+  - NI
+  - MM
+  - SX  #可选三个
